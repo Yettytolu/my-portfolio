@@ -6,6 +6,8 @@ font-family: 'Poppins', sans-serif;
 :root {
   --default-font-family: "Poppins", sans-serif;
   --header-font-family: "Playfair Display", serif;
+  --secondary-color: #c71e42;
+  --basic-color: #f6ebe6;
 }
 body {
   font-family: var(--default-font-family);
@@ -35,7 +37,7 @@ img {
 }
 .start {
   text-align: center;
-  background: #f6ebe6;
+  background: var(--basic-color);
   padding: 160px 80px;
 }
 .start h2 {
@@ -55,9 +57,9 @@ img {
 }
 .btn-learn {
   padding: 10px 12px;
-  border: 1px solid #c71e42;
+  border: 1px solid var(--secondary-color);
   border-radius: 6px;
-  background: #c71e42;
+  background: var(--secondary-color);
   color: white;
   line-height: 27px;
   font-size: 18px;
