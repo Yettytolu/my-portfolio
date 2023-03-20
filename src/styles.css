@@ -91,6 +91,57 @@ img {
 .content p {
   font-size: 14px;
 }
+#about {
+  background: var(--basic-color);
+}
+#enclose {
+  max-width: 900px;
+  max-height: 900px;
+  padding: 100px 60px 20px 20px;
+  margin: 50px auto;
+  border-radius: 6px;
+  display: block;
+  background: #f6ebe6;
+}
+#in-touch {
+  background: #c71e42;
+}
+#in-touch h1 {
+  margin: 30px 10px;
+  color: white;
+}
+nav {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  padding-top: 15px;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
+.name-logo {
+  font-family: "lobster", cursive;
+  font-weight: normal;
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
