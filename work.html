@@ -22,13 +22,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope&family=Lobster&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles.css" />
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <p class="name-logo d-none d-md-block">YO.</p>
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Here are some of my works!</h1>
@@ -42,7 +53,7 @@
             <h3 class="text-center">Peanut Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
           </div>
-          <div class="col-6">
+          <div class="col-5">
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
@@ -63,7 +74,7 @@
             <h3>Novel Project</h3>
             <p>Built with HTML and CSS</p>
           </div>
-          <div class="col-6">
+          <div class="col-5">
             <img
               src="images/world-clock.png"
               class="img-fluid mb-3 rounded"
