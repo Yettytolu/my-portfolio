@@ -29,18 +29,17 @@
     />
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
-  <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <p class="name-logo d-none d-md-block">YO.</p>
-        <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li class="active"><a href="/about.html" title="About">About</a></li>
-          <li><a href="/work.html" title="Work">Work</a></li>
-          <li><a href="/contact.html" title="Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <body class="first">
+    <nav class="d-flex justify-content-between">
+      <p class="name-logo d-none d-md-block">YO.</p>
+      <ul>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li class="active"><a href="/about.html" title="About">About</a></li>
+        <li><a href="/work.html" title="Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+
     <div class="content-container container" id="about">
       <div class="row">
         <div class="col-lg-6">
@@ -73,13 +72,13 @@
       <footer class="container">
         <div class="box d-flex justify-content-between d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
             <a
               href="/contact.html"
-              class="btn contact-box"
+              class="btn contact-box mt-3"
               title="Contact Yetunde"
               >Contact me</a
             >
@@ -116,7 +115,10 @@
         </div>
         <p class="text-center mt-5">
           This project was coded by Yetunde, and it is
-          <a href="https://github.com/Yettytolu/my-portfolio" target="_blank"
+          <a
+            href="https://github.com/Yettytolu/my-portfolio"
+            class="open"
+            target="_blank"
             >open-sourced</a
           >
         </p>
